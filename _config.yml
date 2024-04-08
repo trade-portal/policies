@@ -1,0 +1,35 @@
+title: My Site
+description: My very nice site
+
+#url: 'https://n-at-han-k.github.io'
+#baseurl: '/jekyll-tailwind-blank'
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
+
+exclude: 
+  - .gitignore
+  - .github
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
+  - node_modules
+
+include:
+  - _pages
+
+#########################################
+# CUSTOM BELOW
+
+trading_name: Trade Portal
+legal_name: Reliable Home Utility Ltd
+email_support: support@trade-portal.co.uk
