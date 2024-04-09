@@ -35,5 +35,12 @@ destination: _terms
 
 trading_name: Trade Portal
 legal_name: Reliable Home Utility Ltd
+legal_address: 16-18 Station Street, Meltham HD9 5QL, United Kingdom
 email_support: support@trade-portal.co.uk
 company_slug: tradeportal
+service_url: trade-portal.co.uk
+github_repo: trade-portal/policies
+
+example_product_use: create deals
+example_integration: Zapier
+example_integration_use: to automate your workflow

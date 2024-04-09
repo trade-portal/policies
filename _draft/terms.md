@@ -9,7 +9,7 @@ layout: default
 
 When we say “Company”, “we”, “our”, or “us” in this document, we are referring to {{ site.lagal_name }}.
 
-When we say “Services”, we mean our websites, including trade-portal.co.uk, and any product created and maintained by {{ site.legal_name }}. That includes {{ site.trading_name }}, whether delivered within a web browser, desktop application, mobile application, or another format.
+When we say “Services”, we mean our websites, including {{ site.service_url }}, and any product created and maintained by {{ site.legal_name }}. That includes {{ site.trading_name }}, whether delivered within a web browser, desktop application, mobile application, or another format.
 
 When we say “You” or “your”, we are referring to the people or organizations that own an account with one or more of our Services. We have specific ownership policies for our products: [Trade Portal](./ownership).
 
@@ -64,7 +64,7 @@ If you violate any of the Terms, we may terminate your account. That’s a broad
 
 ## Copyright and Content Ownership
 
-1. All content posted on the Services must comply with U.S. copyright law. We provide details on [how to file a copyright infringement claim](../copyright/index.md).
+1. All content posted on the Services must comply with U.S. copyright law. We provide details on [how to file a copyright infringement claim](./copyright).
 2. You give us a limited license to use the content posted by you and your users in order to provide the Services to you, but we claim no ownership rights over those materials. All materials you submit to the Services remain yours.
 3. We do not pre-screen content, but we reserve the right (but not the obligation) in our sole discretion to refuse or remove any content that is available via the Service.
 4. The Company or its licensors own all right, title, and interest in and to the Services, including all intellectual property rights therein, and you obtain no ownership rights in the Services as a result of your use. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from the Company. You must request permission to use the Company’s logos or any Service logos for promotional purposes. Please [email us]({{ site.email_support }}) requests to use logos. We reserve the right to rescind any permissions if you violate these Terms.
