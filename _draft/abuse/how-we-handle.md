@@ -1,5 +1,5 @@
 ---
-permalink: /sla
+permalink: /abuse/how-we-handle
 layout: default
 ---
 

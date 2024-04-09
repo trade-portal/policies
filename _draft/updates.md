@@ -8,7 +8,7 @@ layout: default
 You can subscribe to activity notifications to know when our policies change. Here's how:
 
 1. Go to [GitHub.com](https://github.com/) and sign in with your account. You can create a free account if you don't have one.
-2. Visit our Policies repository at [https://github.com/trade-portal/policies](https://github.com/trade-portal/policies).
+2. Visit our Policies repository at [https://github.com/{{ site.github_repo }}](https://github.com/{{ site.gituhb_repo }}).
 3. Click the "Watch" button at the top right corner of the page.
 4. Choose the notification settings you want. If you want to keep things simple, just select "All Activity."
 

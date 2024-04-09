@@ -3,4 +3,4 @@ permalink: /privacy/ccpa
 layout: default
 ---
 
-nothign here yet
+Nothing here just yet. Check back later.
