@@ -7,11 +7,11 @@ layout: default
 
 *Last updated: January 6, 2023*
 
-When we say “Company”, “we”, “our”, or “us” in this document, we are referring to {{ site.lagal_name }}. We spun off Highrise HQ, LLC in the past, but it has since rejoined 37signals LLC.
+When we say “Company”, “we”, “our”, or “us” in this document, we are referring to {{ site.lagal_name }}.
 
-When we say “Services”, we mean our websites, including trade-portal.co.uk, and any product created and maintained by {{ site.legal_name }}. That includes TradePortal, whether delivered within a web browser, desktop application, mobile application, or another format.
+When we say “Services”, we mean our websites, including trade-portal.co.uk, and any product created and maintained by {{ site.legal_name }}. That includes {{ site.trading_name }}, whether delivered within a web browser, desktop application, mobile application, or another format.
 
-When we say “You” or “your”, we are referring to the people or organizations that own an account with one or more of our Services. We have specific ownership policies for our products: [Basecamp 4](https://basecamp.com/about/policies/ownership-bc3), [Basecamp 2](https://2.basecamp-help.com/article/411-account-ownership), [Basecamp Classic](https://classic.basecamp-help.com/article/526-account-ownership), [HEY for Domains](https://hey.com/policies/ownership-hey/), [Highrise](https://support.highrise-help.com/article/305-account-ownership), [Campfire](https://support.campfire-help.com/article/651-who-owns-a-campfire-account) and [Backpack](https://support.backpack-help.com/article/661-account-ownership).
+When we say “You” or “your”, we are referring to the people or organizations that own an account with one or more of our Services. We have specific ownership policies for our products: [Trade Portal](./ownership).
 
 We may update these Terms of Service ("Terms") in the future. Whenever we make a significant change to our policies, we will refresh the date at the top of this page and take any other appropriate steps to notify account holders.
 

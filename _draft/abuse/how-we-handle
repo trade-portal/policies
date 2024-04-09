@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/css/main.css">
+---
+permalink: /abuse/how-we-handle
+layout: default
+---
 
-</head>
-<body>
-    <main>
-    <div class="my-24 mx-auto max-w-3xl prose">
-        # How we handle abusive usage
+# How we handle abusive usage
 
 *Last updated: January 19, 2021*
 
@@ -82,8 +75,3 @@ For other cases, we will consider good faith appeals sent to [appeals@basecamp.c
 
 **This process applies to any product created and owned by Basecamp, LLC. That includes Basecamp (any version), HEY, Highrise, Campfire, Backpack, Writeboard, and Ta-da List.*
 
-
-    </div>
-</main>
-</body>
-</html>
