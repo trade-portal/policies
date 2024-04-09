@@ -1,8 +1,8 @@
 title: My Site
 description: My very nice site
 
-#url: 'https://n-at-han-k.github.io'
-#baseurl: '/jekyll-tailwind-blank'
+url: 'https://trade-portal.github.io'
+baseurl: '/policies'
 
 plugins:
   - jekyll-postcss
