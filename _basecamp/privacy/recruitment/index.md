@@ -32,7 +32,7 @@ For most candidates, we'll store your data in Workable and in Basecamp until we 
 If you submit an unsolicited job application through a channel other than Workable, you'll receive direction to re-submit your application through Workable. Any personal information you've included, like a resume, will be immediately deleted.
 
 If you have questions about your personal data as a job applicant, you can contact:
-Basecamp, LLC
+Basecamp, {{site.legal_name}}
 Andrea LaRowe, [andrea@basecamp.com](mailto:andrea@basecamp.com)
 2045 W Grand Ave Ste B
 PMB 53289

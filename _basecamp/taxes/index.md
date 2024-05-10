@@ -1,5 +1,5 @@
 ---
-title: 37signals and Taxes
+title: {{site.trading_name}} and Taxes
 description: We are required to collect and remit sales tax in a number of jurisdictions.
 ---
 

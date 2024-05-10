@@ -1,6 +1,6 @@
-This project is no longer maintained. All of our policies can be found at [37signals.com/policies](https://37signals.com/policies/) now. If you’d like to be notified when policy changes happen, please join the mailing list at [37signals.com/policies/updates](https://37signals.com/policies/updates/).
+This project is no longer maintained. All of our policies can be found at [{{site.trading_name}}.com/policies](https://{{site.trading_name}}.com/policies/) now. If you’d like to be notified when policy changes happen, please join the mailing list at [{{site.trading_name}}.com/policies/updates](https://{{site.trading_name}}.com/policies/updates/).
 
-# 37signals Policies, Terms, and Legal Stuff
+# {{site.trading_name}} Policies, Terms, and Legal Stuff
 
 The rough print and the fine print. We try to make all our policies as clear, fair, and readable as possible.
 
