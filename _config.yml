@@ -8,8 +8,11 @@
 
 title: Trade Portal Policies
 description: Terms of Service and Privacy Policy for Trade Portal.
-url: https://trade-portal.github.io
-baseurl: /policies
+# Served at the root of its own domain (see the CNAME file), so baseurl is empty.
+# If this ever moves back to a github.io project page, baseurl becomes "/policies"
+# or every link on the site breaks.
+url: https://policies.tradeportal.pro
+baseurl: ""
 
 # -- Company facts -------------------------------------------------------------
 company_name: Trade Portal
