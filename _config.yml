@@ -1,0 +1,49 @@
+# EVERY COMPANY-SPECIFIC FACT LIVES HERE. The policy documents reference these as
+# {{ site.whatever }}, so adapting them is this one file rather than a hunt through
+# legal text -- and there is one place to check that nothing still says "Basecamp".
+#
+# The three marked TODO are facts only you can supply. Until they are filled in they
+# render literally on the published page, which is deliberate: a placeholder that is
+# visibly wrong is safer in a legal document than a plausible guess.
+
+title: Trade Portal Policies
+description: Terms of Service and Privacy Policy for Trade Portal.
+url: https://trade-portal.github.io
+baseurl: /policies
+
+# -- Company facts -------------------------------------------------------------
+company_name: Trade Portal
+product_url: tradeportal.pro
+product_link: https://secure.tradeportal.pro
+
+# TODO: the registered legal entity, exactly as it appears at Companies House,
+# e.g. "Trade Portal Ltd (company number 12345678)".
+legal_entity: "TODO — registered legal entity name"
+
+# TODO: the registered office address.
+company_address: "TODO — registered office address"
+
+# TODO: the law these terms are governed by, e.g. "England and Wales".
+jurisdiction: "TODO — governing law and jurisdiction"
+
+email_support: "mailto:support@tradeportal.pro"
+email_privacy: "mailto:privacy@tradeportal.pro"
+email_security: "mailto:security@tradeportal.pro"
+
+# -- Jekyll --------------------------------------------------------------------
+# No theme gem: the layout in _layouts/default.html is self-contained, so GitHub
+# Pages builds this with zero dependencies and nothing to keep in step.
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - vendor

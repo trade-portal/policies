@@ -1,41 +1,43 @@
-This project is no longer maintained. All of our policies can be found at [37signals.com/policies](https://37signals.com/policies/) now. If you’d like to be notified when policy changes happen, please join the mailing list at [37signals.com/policies/updates](https://37signals.com/policies/updates/).
+# Trade Portal policies
 
-# 37signals Policies, Terms, and Legal Stuff
+The Terms of Service and Privacy Policy for [tradeportal.pro](https://secure.tradeportal.pro),
+published with GitHub Pages.
 
-The rough print and the fine print. We try to make all our policies as clear, fair, and readable as possible.
+## Editing
 
-* [Terms of Service](terms/index.md)
-* [Privacy policy](privacy/index.md)
-* [California Resident Notice at Collection](privacy/regulations/ccpa/index.md)
-* [Cancellation policy](cancellation/index.md)
-* [Refund policy](refund/index.md)
-* [Use Restrictions policy](abuse/index.md)
-* [Security overview](security/index.md)
-* [Until the End of the Internet](until-the-end-of-the-internet/index.md)
-* [Taxes](taxes/index.md)
-* Account ownership information for [Basecamp 2](https://2.basecamp-help.com/article/411-account-ownership) and [Basecamp 4](ownership-bc3/index.md)
-* [Service Level Agreement (SLA) for Basecamp Big](sla/index.md)
-* [How to manage the HEY account of someone who is incapacitated or has died](incapacitated/index.md)
-* [HEY for Domains Ownership and Management Policy](ownership-hey/index.md)
+Every company-specific fact lives in `_config.yml` and is referenced from the
+documents as `{{ site.whatever }}`. Change it there, not in the legal text.
 
-## A Note About the Email Addresses
+Three values are still `TODO` and render literally on the published page until
+they are filled in — deliberately, because a visibly wrong placeholder is safer
+in a legal document than a plausible guess:
 
-If you try to click on any of the Support links in this repository, you'll get a 404 page. Don't despair! You can always reach us at support@basecamp.com. Highrise customers can also email support@highrisehq.com and HEY users can reach out to support@hey.com. Your emails all go to our same [friendly Support team](https://basecamp.com/support).
+- `legal_entity` — registered company name and number
+- `company_address` — registered office
+- `jurisdiction` — governing law
 
-So how come the links don't work in this repository? The short answer is: we made a technical tradeoff. The long answer is, we copy the policies in this repository to our product marketing sites. To make it easier to transfer, we are now using relative links, [this Jekyll plugin](https://github.com/benbalter/jekyll-relative-links) to convert Markdown links to a valid web URL, and some [Liquid](https://shopify.github.io/liquid/) variables.
+The subprocessor table in `privacy/index.md` was compiled from the integrations
+present in the application code, not from a contract inventory. Confirm it before
+publishing: GDPR Article 28 requires it to be accurate and current.
 
-## Public Contributions Welcome
+## Publishing
 
-We welcome our customers—you!—to suggest changes to our policies and to offer feedback on the changes we have planned. Please do chime in on any open pull request, or even file a pull request yourself.
+Settings → Pages → Source: *Deploy from a branch*, branch `main`, folder `/`.
+GitHub builds the Jekyll site itself; there is no workflow and no Gemfile to keep
+in step. The layout in `_layouts/default.html` is self-contained — no theme gem,
+no webfont, nothing fetched from a third party on a page about privacy.
 
+To preview locally: `jekyll build` or `jekyll serve`.
 
-## Steal These Policies
+## Unadapted documents
 
-You're free to use these policies in your own organization under the [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) license.
-Edit them. Adapt them to your needs. Share them. Put them to work.
+The upstream repository also carries cancellation, refund, use restrictions,
+security, taxes, SLA and product-ownership policies. Those files are still here
+but are **not linked** from the index and still describe Basecamp and HEY. Adapt
+them before linking, or delete them.
 
-An example of a brief, unobtrusive [attribution](https://wiki.creativecommons.org/wiki/Best_practices_for_attribution) for your own policies that you've based on ours:
-> Adapted from the [Basecamp open-source policies](https://github.com/basecamp/policies) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+## Licence
 
-Here's how you could re-share your own policies under [a CC license with attribution](https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license#Adding_a_CC_license_to_your_derivative_work):
-> MyCorp policies are open source, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Adapted from the [Basecamp open-source policies](https://github.com/basecamp/policies) / [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Adapted from the [37signals open-source policies](https://github.com/basecamp/policies),
+used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes have
+been made. Attribution in the page footer is a licence condition — keep it.
